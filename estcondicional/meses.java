@@ -4,7 +4,7 @@ public class meses{
 static void mesdelanho(){
   //declarar variables
   int mesnum;
-  String mesletra;
+  String mesletra="";
 
   //datos de entrada
   System.out.println("ingrese el numero del mes entre 1-12:");
@@ -28,7 +28,7 @@ static void mesdelanho(){
     System.out.println("este mes no es valido:");
   }
   //datos de salida 
-  System.out.println("elmes ");
+  System.out.println("el mes "+mesnum+" es:"+mesletra);
 }
 public static void main(String[] arg){
   mesdelanho();
